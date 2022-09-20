@@ -1,24 +1,202 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Joshua Varga Resume</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/resume.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <h1>Joshua Varga</h1>
 
-        <!-- <script src="" async defer></script> -->
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Joshua Varga Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/resume.css">
+</head>
+
+<body>
+    <div class="resume">
+        <h1>Joshua S. Varga</h1>
+        <h2>
+            <a href="mailto:joshuasvarga@gmail.com">
+                <img src="img/email.png" />
+                &nbsp;
+                joshuasvarga@gmail.com
+                &emsp;|&emsp;
+            </a>
+            <a href="https://github.com/JoshuaVarga">
+                <img src="img/github.png" />
+                &nbsp;
+                JoshuaVarga
+                &emsp;|&emsp;
+            </a>
+            <a href="https://www.linkedin.com/in/joshuavarga/">
+                <img src="img/linkedin.png" />
+                &nbsp;
+                joshuavarga
+                &emsp;|&emsp;
+            </a>
+            <a href="https://www.google.com/maps/place/Barrie,+ON">
+                <img src="img/location.png" />
+                &nbsp;
+                Barrie, Ontario
+            </a>
+        </h2>
+        <h3>
+            Education
+        </h3>
+        <hr>
+        <h4>
+            <span class="left">
+                <strong>Wilfrid Laurier University</strong>
+            </span>
+            <span class="right">
+                <strong>Waterloo, Ontario</strong>
+            </span>
+        </h4>
+        <br>
+        <span class="left">
+            BSc (Honours) Computer Science,
+            Big Data Systems Concentration,
+            Mathematics Minor
+        </span>
+        <span class="right">
+            <em>Jun 2022</em>
+        </span>
+        <br>
+        <h3>
+            Languages and Technologies
+        </h3>
+        <hr>
+        <h5><strong>Bold</strong> if proficient, otherwise familiar</h5>
+        <ul>
+            <li>
+                ARM assembly language, BASH/Shell, C/C++, HTML/CSS, Java, JavaScript (D3.js, Three.js),
+                <strong>Python</strong>
+                (Anaconda, TKinter), R, SQL, VBA
+            </li>
+            <li>
+                Android Studio, Eclipse, <strong>Git</strong>, Hadoop, Heroku, Apache Hive, Apache Pig, Maple, MySQL,
+                RStudio,
+                <strong>Visual Studio</strong>, Visual Studio Code
+            </li>
+        </ul>
+        <h3>
+            Projects
+        </h3>
+        <hr>
+        <h4>
+            <strong>Umbrellabot</strong>
+        </h4>
+        <ul>
+            <li>
+                A Discord bot for my personal server of over 30 active members that simplifies scheduling and inviting
+                people to play games using <strong>Python</strong> and the <strong>Pycord</strong> API.
+            </li>
+            <li>
+                The <strong>Beautiful Soup</strong> and <strong>Requests</strong> Python libraries are used in a
+                webscraper that finds game cover art to populate Discord embedded messages.
+            </li>
+            <li>
+                Used <strong>YAML</strong> to define a workflow that uses GitHub Actions to build and deploy the bot as
+                a
+                <strong>Heroku</strong> app.
+            </li>
+            <li>
+                Utilizes new Discord features such as threads, scheduled events, application commands, cogs, and the bot
+                ui kit.
+            </li>
+        </ul>
+        <h4>
+            <strong>Cellular Automata</strong>
+        </h4>
+        <ul>
+            <li>
+                Simulates any two-state, Moore neighbourhood cellular automaton input in the form of B/S notation in
+                <strong>C++</strong>.
+            </li>
+            <li>
+                Graphics are handled by the <strong>Simple and Fast Multimedia Library (SFML)</strong> which is used to implement the ability to
+                zoom, pan, and change the simulation speed.
+            </li>
+            <li>
+                While paused, users can use the mouse to change the state of cells allowing for unique interactions with
+                the simulation.
+            </li>
+        </ul>
+        <h4>
+            <strong>3D Showroom</strong>
+        </h4>
+        <ul>
+            <li>
+                University project built using <strong>JavaScript</strong> and the <strong>Three.js</strong> library for
+                learning lighting
+                in computer graphics.
+            </li>
+            <li>
+                Users can select one of three 3D models and observe how they are rendered under different lighting
+                conditions.
+            </li>
+            <li>
+                Implemented lights that come from 6 different directions, can be toggled on/off, and have their colours
+                changed.
+            </li>
+            <li>
+                To better observe the lightning effects, the model can be rotated along all axes and the camera can
+                pan/zoom.
+            </li>
+        </ul>
+        <h4>
+            <strong>Covid Data Visualizer</strong>
+        </h4>
+        <ul>
+            <li>
+                University project built using <strong>JavaScript</strong> and the <strong>D3.js</strong> library to
+                visualize different covid metrics using a choropleth map.
+            </li>
+            <li>The map is drawn using GeoJSON data and coloured using data from a Kaggle dataset.</li>
+            <li>
+                Created a menu for changing metrics and colour schemes using <strong>lil-gui</strong>.
+            </li>
+            <li>
+                Used transitions to interpolate changes to the DOM for easier differentiation between metrics and color
+                schemes.
+            </li>
+        </ul>
+        <h4>
+            <strong>Smart Rockets</strong>
+        </h4>
+        <ul>
+            <li>
+                Small application built with <strong>C++</strong> and <strong>SFML</strong> to observe the learning
+                process of genetic algorithms.
+            </li>
+            <li>
+                The rockets learned to navigate around a static obstacle
+            </li>
+        </ul>
+        <h4>
+            <strong>Snake</strong>
+        </h4>
+        <ul>
+            <li>
+                Used the <strong>SFML</strong> library to recreate the classic game of snake in <strong>C++</strong>.
+            </li>
+        </ul>
+        <!-- <h3>
+            Notable Coursework
+        </h3>
+        <hr>
+        <ul>
+            <li>
+                Wrote <strong>C</strong> and <strong>Python</strong> code to parallelize several
+                computationally complex problems such as Erdős' Multiplication
+                Table Problem using <strong>MPI</strong> libraries and ran them on Calcul Québec's
+                Béluga supercomputer to solve them for large input sizes.
+            </li>
+            <li>
+                Made a fullstack webapp using the <strong>Flask</strong> web framework and a
+                <strong>MySQL</strong> database that compiles a list of recipes based on what
+                ingredients a user has available.
+            </li>
+        </ul> -->
+    </div>
+
+</body>
+
 </html>
